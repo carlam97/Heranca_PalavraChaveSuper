@@ -10,7 +10,7 @@ public class Principal {
         Pessoa ps = new Pessoa();
 
         //Código para adicionar as informações
-        
+
      /* System.out.println("Digite seu nome: ");
         a.setNome(sc.nextLine());
 
@@ -53,8 +53,11 @@ public class Principal {
         System.out.println(a.getCursos());
 
         if(a.verificaAprovado()){
-        System.out.println("Aprovado");
+            System.out.println(a.calculaMedia());
+            System.out.println("Aprovado");
+
         }else{
+            System.out.println(a.calculaMedia());
             System.out.println("Reprovado");
 
         }
